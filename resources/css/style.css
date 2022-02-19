@@ -1,7 +1,43 @@
-/* Universal style */
+/* ----------Universal style---------- */
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    color: white;
+  font-family: Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* ----------Header Style---------- */
+
+#head-title {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+/* ----------Main Style---------- */
+
+.link-download a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+.subhead-container {
+  margin-top: 50px;
+}
+
+#subhead-title {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+#subhead-description {
+  color: gray;
+  font-size: 21px;
+}
+
+/* ----------Footer----------*/
+
+footer {
+  text-align: right;
+  color: gray;
 }
